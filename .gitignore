@@ -1,0 +1,28 @@
+# macOS
+.DS_Store
+
+# Data files
+data/
+*.csv
+*.tsv
+*.rds
+*.Rds
+*.parquet
+
+# Large text dumps
+db_*/
+*.txt
+
+# Outputs
+output/
+outputs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+
+# Environment / secrets
+.env
